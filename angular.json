@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Rudhay"
+    }
+  },
+  "defaultProject": "Rudhay",
+  "cli": {
+    "analytics": "f71f1a43-bfac-4792-883c-4323c5d6a27f"
+  }
 }

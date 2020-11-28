@@ -1,0 +1,50 @@
+
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <h1 class="text-center bg-primary m-1 p-1">Drive Details</h1>
+    <table class="table table-bordered" *ngFor="let d of allData">
+        <tr class="bg-warning">
+            <th>Name</th>
+            <th>{{d.name}}</th>
+        </tr>
+        <tr>
+            <td>position</td>
+            <td>{{d.position}}</td>
+        </tr>
+        <tr>
+            <td>salary</td>
+            <td>{{d.salary}}</td>
+        </tr>
+        <tr>
+            <td>skill</td>
+            <td>{{d.skill}}</td>
+        </tr>
+        <tr>
+            <td>Discription</td>
+            <td>{{d.disc}}</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>{{d.date}}</td>
+        </tr>
+       
+    </table>
+  </div>
